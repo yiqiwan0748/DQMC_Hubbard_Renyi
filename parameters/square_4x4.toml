@@ -1,0 +1,24 @@
+# H = hopping + U*(n_up-1/2)*(n_down-1/2) - mu*(n_up+n_down).
+# At mu=0, an even square lattice with nearest-neighbor hopping is half filled.
+[model]
+Lx = 4
+Ly = 4
+t = 1.0
+U = 4.0
+mu = 0.0
+beta = 4.0
+dtau = 0.1
+periodic = [true, true]
+n_stab = 10
+
+[sampling]
+root_seed = 1234
+# Discard these initial sweeps before collecting measurements.
+burnin = 500
+measurements = 4000
+# Each bin contains 100 measurements. Compare larger bins to check errors.
+bins = 40
+sweeps_per_measurement = 1
+
+[output]
+directory = "results/examples/square_4x4_seed1234"

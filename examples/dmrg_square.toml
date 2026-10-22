@@ -1,0 +1,22 @@
+# Small square Hubbard ground state. Hopping t sets the energy unit.
+[lattice]
+Lx = 2
+Ly = 2
+t = 1.0
+periodic = [false, false]
+
+[model]
+U = 4.0
+mu = 0.0
+
+[sector]
+Nup = 2
+Ndn = 2
+
+[dmrg]
+root_seed = 1234
+nsweeps = 10
+maxdim = [16, 32, 64, 128]
+cutoff = 1.0e-12
+# Subsystem A contains sites 1:cut in x-fast lattice order.
+cut = 2

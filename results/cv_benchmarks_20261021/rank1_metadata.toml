@@ -1,0 +1,42 @@
+blas = "LBTConfig([ILP64] libopenblas64_.so)"
+hamiltonian = "sum(K_ij cdag_i c_j) + U sum((nup-1/2)(ndn-1/2)) - mu N"
+julia_threads = 1
+git_commit = "c103a8b226c0f2d441b45a60c7736357b933c42c"
+julia_version = "1.12.1"
+architecture = "x86_64"
+cpu = "AMD Ryzen 7 7700X 8-Core Processor"
+kernel = "Linux"
+working_tree_dirty = true
+blas_threads = 1
+
+[source_sha256]
+"src/square_lattice.jl" = "6dcde5fb5732972480d67c02ad878a0b91388ac517913c247bcdad8b3dd7e813"
+"analysis/cv_benchmark_dqmc.jl" = "c3451480c58f3d478b3d17b259bcbbf5d97a6e9954290c4f825c3bdc91e9ff86"
+"src/dqmc_kernel.jl" = "4cd70c95f78a7a1f85e9648a6addbb58242791c2b16093ed6f33012ddbf8ac31"
+"src/grover_rank1_update.jl" = "e74e95d537333a91f98c68139cc032cf8286beafad55dd242f07ec1c12aeed33"
+
+[settings]
+optimized = "rank-one Grover determinant/inverse tracker"
+rounds = 100
+repeats = 7
+scope = "two-replica stabilized updates, excluding initialization and measurements"
+lambda = 0.5
+baseline = "direct Grover determinant rebuilds; Green functions already use rank-one updates"
+warmup_rounds_per_repeat = 2
+
+    [settings.square]
+    Ly = 4
+    U = 4.0
+    n_stab = 10
+    Lx = 4
+    nA = 8
+    dtau = 0.1
+    beta = 4.0
+
+    [settings.chain]
+    U = 2.0
+    n_stab = 10
+    nA = 4
+    dtau = 0.05
+    L = 8
+    beta = 32.0

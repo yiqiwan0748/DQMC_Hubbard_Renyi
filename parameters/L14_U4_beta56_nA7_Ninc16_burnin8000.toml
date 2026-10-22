@@ -1,0 +1,29 @@
+[model]
+L = 14
+t = 1.0
+U = 4.0
+mu = 0.0
+beta = 56.0
+dtau = 0.05
+n_stab = 10
+N_sweeps = 1
+boundary_condition = "pbc"
+
+[subsystem]
+nA = 7
+
+[lambda_grid]
+Ninc = 16
+S2_ED = nan
+
+[sampling]
+N_burnin = 8000
+N_measurements = 4000
+N_bins = 40
+root_seeds = [1234, 11234, 21234, 31234]
+
+[output]
+run_name = "L14_U4_beta56_nA7_Ninc16_burnin8000"
+raw_dir = "results/raw/L14_U4_beta56_nA7_Ninc16_burnin8000"
+processed_dir = "results/processed"
+figures_dir = "results/figures"

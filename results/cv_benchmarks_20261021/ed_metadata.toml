@@ -1,0 +1,17 @@
+absolute_tolerance = 2.0e-12
+blas = "LBTConfig([ILP64] libopenblas64_.so)"
+blas_threads = 1
+cpu = "AMD Ryzen 7 7700X 8-Core Processor"
+free_square_models = 9
+free_square_observable_max_abs_error = 4.618527782440651e-14
+ground_models = 24
+ground_spectrum_max_abs_error = 5.329070518200751e-15
+interaction = "U(n_up-1/2)(n_down-1/2)-mu(n_up+n_down)"
+julia_threads = 1
+julia_version = "1.12.1"
+os = "Linux"
+recorded_utc = "2026-10-22T03:22:04Z"
+reference = "Carrascal et al., J. Phys.: Condens. Matter 27, 393001 (2015), Eq. 36"
+reference_url = "https://arxiv.org/html/1502.02194v1#S2.E36"
+thermal_models = 48
+thermal_observable_max_abs_error = 9.769962616701378e-15

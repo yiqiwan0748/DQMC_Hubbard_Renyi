@@ -1,0 +1,28 @@
+[model]
+L = 8
+t = 1.0
+U = 2.0
+mu = 0.0
+beta = 32.0
+dtau = 0.05
+n_stab = 10
+N_sweeps = 1
+
+[subsystem]
+nA = 4
+
+[lambda_grid]
+Ninc = 16
+S2_ED = 1.309407045625562
+
+[sampling]
+N_burnin = 500
+N_measurements = 4000
+N_bins = 40
+root_seeds = [1234, 11234, 21234, 31234]
+
+[output]
+run_name = "L8_U2_beta32_nA4_Ninc16_highstat"
+raw_dir = "results/raw/L8_U2_beta32_nA4_Ninc16_highstat"
+processed_dir = "results/processed"
+figures_dir = "results/figures"

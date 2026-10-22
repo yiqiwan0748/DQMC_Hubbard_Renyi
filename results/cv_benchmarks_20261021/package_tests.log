@@ -1,0 +1,17 @@
+Test Summary:           | Pass  Total  Time
+Editable square lattice |   10     10  5.2s
+Test Summary:                                      | Pass  Total  Time
+Free square-lattice DQMC equals Fermi-Dirac result |    4      4  2.7s
+Test Summary:              | Pass  Total  Time
+ED: analytic Hubbard dimer |  168    168  0.0s
+Test Summary:                      | Pass  Total  Time
+ED: free square and thermal limits |   10     10  0.5s
+Test Summary:    | Pass  Total  Time
+ED: input limits |    8      8  0.3s
+Test Summary:                           | Pass  Total  Time
+ED: noncontiguous fermionic spatial cut |    1      1  0.2s
+Test Summary:                           | Pass  Total  Time
+ED: editable hoppings and site energies |    3      3  0.2s
+Skipping existing node: k=0 seed=7
+Test Summary:                   | Pass  Total   Time
+simulation-free workflow checks |  254    254  12.4s

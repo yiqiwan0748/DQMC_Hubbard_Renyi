@@ -1,0 +1,28 @@
+[model]
+L = 16
+t = 1.0
+U = 2.0
+mu = 0.0
+beta = 32.0
+dtau = 0.05
+n_stab = 10
+N_sweeps = 1
+
+[subsystem]
+nA = 8
+
+[lambda_grid]
+Ninc = 16
+S2_ED = nan
+
+[sampling]
+N_burnin = 500
+N_measurements = 1000
+N_bins = 20
+root_seeds = [1234, 11234, 21234, 31234]
+
+[output]
+run_name = "L16_U2_beta32_nA8_Ninc16_quick"
+raw_dir = "results/raw/L16_U2_beta32_nA8_Ninc16_quick"
+processed_dir = "results/processed"
+figures_dir = "results/figures"

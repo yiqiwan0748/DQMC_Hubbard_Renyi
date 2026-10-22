@@ -1,0 +1,25 @@
+blas = "LBTConfig([ILP64] libopenblas64_.so)"
+hamiltonian = "sum(K_ij cdag_i c_j) + U sum((nup-1/2)(ndn-1/2)) - mu N"
+julia_threads = 1
+git_commit = "c103a8b226c0f2d441b45a60c7736357b933c42c"
+julia_version = "1.12.1"
+architecture = "x86_64"
+cpu = "AMD Ryzen 7 7700X 8-Core Processor"
+kernel = "Linux"
+working_tree_dirty = true
+blas_threads = 1
+
+[settings]
+measurements_per_seed = 20000
+burnin = 1000
+mu = 0.0
+Lx = 2
+dtau = [0.1, 0.05]
+periodic = [true, true]
+bins_per_seed = 40
+reference = "full-spectrum exact diagonalization"
+beta = 2.0
+root_seeds = [1103, 2207, 3313, 4409]
+Ly = 2
+U = 2.0
+ensemble = "grand canonical"

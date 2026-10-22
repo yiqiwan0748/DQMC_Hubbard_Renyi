@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the software and the upstream methods you use."
+title: "HubbardRenyiDQMC"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Yingqing
+version: 0.1.0
+date-released: 2026-10-21
+repository-code: "https://github.com/yiqiwan0748/DQMC_Hubbard_Renyi"

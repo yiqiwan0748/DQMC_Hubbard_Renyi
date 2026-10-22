@@ -1,0 +1,28 @@
+[model]
+L = 22
+t = 1.0
+U = 2.0
+mu = 0.0
+beta = 88
+dtau = 0.05
+n_stab = 10
+N_sweeps = 1
+
+[subsystem]
+nA = 11
+
+[lambda_grid]
+Ninc = 16
+S2_ED = nan
+
+[sampling]
+N_burnin = 8000
+N_measurements = 4000
+N_bins = 40
+root_seeds = [1234, 11234, 21234, 31234]
+
+[output]
+run_name = "L22_U2_beta88_nA11_Ninc16_burnin8000"
+raw_dir = "results/raw/L22_U2_beta88_nA11_Ninc16_burnin8000"
+processed_dir = "results/processed"
+figures_dir = "results/figures"

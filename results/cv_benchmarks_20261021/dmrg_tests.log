@@ -1,0 +1,4 @@
+┌ Warning: MPS center bond dimension is less than requested (you requested 4, but in practice it is 2. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+Test Summary:                    | Pass  Total     Time
+ITensorMPS Hubbard ground states |   14     14  1m11.9s

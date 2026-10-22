@@ -1,0 +1,26 @@
+# Raw simulation outputs
+results/raw/
+
+# Scratch processed outputs
+results/processed/scratch/
+
+# Runtime logs / process markers
+*.log
+*.pid
+*.err.log
+*.out.log
+*.exit.log
+
+# Julia artifacts
+.julia/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+
+# Generated detached launcher helpers
+results/processed/*.bat
+results/processed/*.ps1
