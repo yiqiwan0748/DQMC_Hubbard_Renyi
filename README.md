@@ -110,15 +110,22 @@ above differs by known number and constant terms from `U*n_up*n_down`.
 
 ## Benchmarks and tests
 
-The independently tested references are the **analytic Hubbard dimer solution**
-of Carrascal et al. (2015), the **noninteracting Fermi-Dirac limit**, and
-**full exact diagonalization** of small square clusters. Details, measured
-errors, timing scope, and reproduction commands:
+Actual external-package runs cross-check **DQMC against SmoQyDQMC.jl 2.0.14**,
+**ED against QuSpin 1.0.1**, and **ITensorMPS-based DMRG against TeNPy 1.1.1**.
+All comparisons passed on the small Hubbard systems tested. QuSpin also
+provides an independent exact finite-step reference for both DQMC engines.
+See the [external-package report](docs/cv_benchmarks/external_packages.md)
+for numerical differences, tested scope, shared DQMC dependencies and saved
+evidence.
+
+Additional references are the **analytic Hubbard dimer solution** of Carrascal
+et al. (2015), the **noninteracting Fermi-Dirac limit**, and **full exact
+diagonalization** of small square clusters. Details and reproduction commands:
 
 - [ED validation](docs/cv_benchmarks/ed.md)
 - [DMRG validation](docs/cv_benchmarks/dmrg.md)
 - [DQMC validation and rank-one timings](docs/cv_benchmarks/dqmc.md)
-- [Independent package cross-check](docs/cv_benchmarks/crosscheck.md)
+- [Regression and independent full-Fock checks](docs/cv_benchmarks/crosscheck.md)
 
 Run the regression suite and optional DMRG checks:
 
@@ -131,7 +138,3 @@ The earlier 1D Rényi study is described in
 [docs/dqmc_renyi_ee.md](docs/dqmc_renyi_ee.md). Historical benchmark snapshots
 are separate from these new package checks. New benchmark commands refuse to
 overwrite existing outputs.
-This public package includes active source, runnable examples, regression
-tests, and new benchmark evidence. Earlier research notes are retained as
-provenance; the original archive, accepted raw data, and processed benchmark
-snapshots are not included in this source release.

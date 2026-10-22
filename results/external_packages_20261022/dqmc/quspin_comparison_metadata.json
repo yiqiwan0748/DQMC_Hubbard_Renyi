@@ -1,0 +1,50 @@
+{
+  "purpose": "Independent finite-step observable reference; no Renyi or performance claim",
+  "python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "K": [
+    [
+      0.0,
+      -1.0,
+      -1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "K_sha256": "a2b7c627f327c99524cb3e132d0e83740983c4ddaa9ef7574ed89287e4f5687c",
+  "quspin_versions": {
+    "quspin": "1.0.1",
+    "quspin-extensions": "0.1.8",
+    "parallel-sparse-tools": "0.2.5",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "roundoff_floor": 1e-10,
+  "sampling_error_multiplier": 5,
+  "sources": {
+    "results/external_packages_20261022/ed/quspin_trotter.json": "d694e3a007d70d39e5d85dfb085c43e72605510525516f700b28185e90674bc5",
+    "results/external_packages_20261022/dqmc/local_metadata.toml": "ae93e44e79464bfbe21e02684949b8ef3a3a55f41341cb5662e415dc3d8221d5",
+    "results/external_packages_20261022/dqmc/smoqy_metadata.toml": "8f7cda7ecf49a991a3e887c85a8c1e15ae2982e0c2bbe4050ba6d7bfaebbd573",
+    "results/external_packages_20261022/dqmc/comparison.csv": "ab9ba9d82a9b66c4d82c9ced3b3c06aa37847c7eddf53639536ea9bd04301934"
+  },
+  "script_sha256": "086127219d093049bafc27638f7815c2af79d6a61b27a2a0866cbcf2eb96e334",
+  "comparisons": 12,
+  "passed": 12
+}

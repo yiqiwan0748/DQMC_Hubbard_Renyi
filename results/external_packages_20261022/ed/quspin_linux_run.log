@@ -1,0 +1,38 @@
+open_square_2x2_U4 E= -6.102748483462064 gap= 0.29632463163894585
+open_rectangle_3x2_U4 E= -9.619321323957532 gap= 0.39674556982907205
+periodic_rectangle_3x2_U2_doped E= -4.784901399787365 gap= 0.6595722092476999
+custom_triangle_U3p1 E= -4.163501539061573 gap= 0.9187309184924608
+custom_triangle_attractive E= -3.6072037631795615 gap= 1.3140258276809993
+custom_triangle_vacuum E= 2.325 gap= None
+custom_triangle_full E= 1.3449999999999998 gap= None
+open_square_2x2_U2_beta2 thermal E= -4.289791719765118
+open_square_2x2_U0_beta2 thermal E= -3.856110320303265
+open_square_2x2_U4_doped thermal E= -6.500308197541223
+custom_triangle_thermal thermal E= -2.6828531320016826
+custom_triangle_attractive_thermal thermal E= -2.252174097239048
+open_square_2x2_infinite_temperature thermal E= -1.4800000000000004
+{
+  "passed": true,
+  "comparison_metrics": 108,
+  "ground_cases": 7,
+  "thermal_cases": 6,
+  "spectrum_eigenvalues": 546,
+  "renyi2_cuts": 17,
+  "max_abs_difference": 1.1762562477897193e-13,
+  "tolerance": 2e-10,
+  "python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "versions": {
+    "quspin": "1.0.1",
+    "quspin-extensions": "0.1.8",
+    "parallel-sparse-tools": "0.2.5",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "julia_version": "1.12.1",
+  "julia_package_version": "0.1.0",
+  "julia_source_path": "/home/yqw/code/HubbardRenyiDQMC/output/github_release/src/HubbardRenyiDQMC.jl",
+  "julia_source_commit": "6f8b949275a648f9592410085fd8263b1286f2ba",
+  "documentation": "https://quspin.github.io/QuSpin/generated/quspin.basis.spinful_fermion_basis_1d.html",
+  "paper": "https://scipost.org/10.21468/SciPostPhys.7.2.020"
+}

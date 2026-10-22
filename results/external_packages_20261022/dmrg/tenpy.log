@@ -1,0 +1,41 @@
+TeNPy DMRG: square_2x2_U4 / standard
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\params.py:243: UserWarning: unused options for config lanczos_params:
+['E_tol', 'N_max', 'N_min']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+TeNPy DMRG: square_2x2_U4 / tight
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\params.py:243: UserWarning: unused options for config lanczos_params:
+['E_tol', 'N_max', 'N_min', 'P_tol']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+TeNPy DMRG: rectangle_3x2_U4 / standard
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+TeNPy DMRG: rectangle_3x2_U4 / tight
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+TeNPy DMRG: rectangle_3x2_U4_one_hole / standard
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+TeNPy DMRG: rectangle_3x2_U4_one_hole / tight
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+TeNPy DMRG: chain_6x1_U2 / standard
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+TeNPy DMRG: chain_6x1_U2 / tight
+\\wsl$\Ubuntu\home\yqw\code\HubbardRenyiDQMC\output\external_packages_20261022\tenpy_venv\Lib\site-packages\tenpy\tools\process.py:61: UserWarning: No tool to determine memory_usage
+  warnings.warn('No tool to determine memory_usage')
+{
+  "checks": 32,
+  "passed": 32,
+  "failed": [],
+  "max_absolute_errors": {
+    "energy": 1.2434497875801753e-14,
+    "S2": 3.197442310920451e-13,
+    "density": 4.440892098500626e-16,
+    "double_occupancy": 7.882583474838611e-15
+  }
+}

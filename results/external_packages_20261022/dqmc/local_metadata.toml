@@ -1,0 +1,1064 @@
+package_source = "/home/yqw/code/HubbardRenyiDQMC/output/github_release"
+timestamp_utc = "2026-10-22T04:06:45.070"
+blas = "LBTConfig([ILP64] libopenblas64_.so)"
+K_rows = [[0.0, -1.0, -1.0, 0.0], [-1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, -1.0], [0.0, -1.0, -1.0, 0.0]]
+package_working_tree_dirty = false
+package_git_commit = "6f8b949275a648f9592410085fd8263b1286f2ba"
+engine = "HubbardRenyiDQMC"
+julia_threads = 1
+julia_version = "1.12.1"
+architecture = "x86_64"
+cpu = "AMD Ryzen 7 7700X 8-Core Processor"
+kernel = "Linux"
+blas_threads = 1
+
+[source_sha256]
+"src/dqmc_kernel.jl" = "4cd70c95f78a7a1f85e9648a6addbb58242791c2b16093ed6f33012ddbf8ac31"
+"src/square_lattice.jl" = "6dcde5fb5732972480d67c02ad878a0b91388ac517913c247bcdad8b3dd7e813"
+
+[packages.FastLapackInterface]
+tree_hash = "c1293a93193f0ae94be7cf338d33e162c39d8788"
+version = "1.2.9"
+
+[packages.xkbcommon_jll]
+tree_hash = "a1fc6507a40bf504527d0d4067d718f8e179b2b8"
+version = "1.13.0+0"
+
+[packages.DefineSingletons]
+tree_hash = "0fba8b706d0178b4dc7fd44a96a92382c9065c2c"
+version = "0.1.2"
+
+[packages.TableTraits]
+tree_hash = "c06b2f539df1c6efa794486abfb6ed2022561a39"
+version = "1.0.1"
+
+[packages.ConstructionBase]
+tree_hash = "b4b092499347b18a015186eae3042f72267106cb"
+version = "1.6.0"
+
+[packages.IrrationalConstants]
+tree_hash = "b2d91fe939cae05960e760110b328288867b5758"
+version = "0.2.6"
+
+[packages.RelocatableFolders]
+tree_hash = "ffdaf70d81cf6ff22c2b6e733c900c3321cab864"
+version = "1.0.1"
+
+[packages.ColorVectorSpace]
+tree_hash = "8b3b6f87ce8f65a2b4f857528fd8d70086cd72b1"
+version = "0.11.0"
+
+[packages.Latexify]
+tree_hash = "df7566479bd64f20bd16b09960145e70160ffb3b"
+version = "0.16.12"
+
+[packages.RecipesBase]
+tree_hash = "5c3d09cc4f31f5fc6af001c250bf1278733100ff"
+version = "1.3.4"
+
+[packages.Future]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.ExprTools]
+tree_hash = "d2e49e7efd29719d6f28b891b0e0e159daa9d2b4"
+version = "0.1.11"
+
+[packages.XZ_jll]
+tree_hash = "b29c22e245d092b8b4e8d3c09ad7baa586d9f573"
+version = "5.8.3+0"
+
+[packages.HarfBuzz_jll]
+tree_hash = "f923f9a774fcf3f5cb761bfa43aeadd689714813"
+version = "8.5.1+0"
+
+[packages.Xorg_libxcb_jll]
+tree_hash = "bfcaf7ec088eaba362093393fe11aa141fa15422"
+version = "1.17.1+0"
+
+[packages.AbstractFFTs]
+tree_hash = "d92ad398961a3ed262d8bf04a1a2b8340f915fef"
+version = "1.5.0"
+
+[packages.StableLinearAlgebra]
+tree_hash = "02b6a6351dff482731f9361d1a164a7d4f2d2fb0"
+version = "1.5.1"
+
+[packages.TupleTools]
+tree_hash = "41e43b9dc950775eac654b9f845c839cd2f1821e"
+version = "1.6.0"
+
+[packages.KrylovKit]
+tree_hash = "a3babd26e875e83b461e1c0f945bff52701e8181"
+version = "0.10.4"
+
+[packages.Opus_jll]
+tree_hash = "e2bb57a313a74b8104064b7efd01406c0a50d2ff"
+version = "1.6.1+0"
+
+[packages.FixedPointNumbers]
+tree_hash = "59af96b98217c6ef4ae0dfe065ac7c20831d1a84"
+version = "0.8.6"
+
+[packages.ArrayLayouts]
+tree_hash = "e0b47732a192dd59b9d079a06d04235e2f833963"
+version = "1.12.2"
+
+[packages.LinearAlgebra]
+tree_hash = ""
+version = "1.12.0"
+
+[packages.Xorg_libSM_jll]
+tree_hash = "9c7ad99c629a44f81e7799eb05ec2746abb5d588"
+version = "1.2.6+0"
+
+[packages.LibGit2]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Baselet]
+tree_hash = "aebf55e6d7795e02ca500a689d326ac979aaf89e"
+version = "0.1.1"
+
+[packages.UnicodeFun]
+tree_hash = "53915e50200959667e78a92a418594b428dffddf"
+version = "0.4.1"
+
+[packages.Xorg_xcb_util_keysyms_jll]
+tree_hash = "44ec54b0e2acd408b0fb361e1e9244c60c9c3dd4"
+version = "0.4.1+0"
+
+[packages.NetworkOptions]
+tree_hash = ""
+version = "1.3.0"
+
+[packages.MKL_jll]
+tree_hash = "282cadc186e7b2ae0eeadbd7a4dffed4196ae2aa"
+version = "2025.2.0+0"
+
+[packages.Printf]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Libiconv_jll]
+tree_hash = "be484f5c92fad0bd8acfef35fe017900b0b73809"
+version = "1.18.0+0"
+
+[packages.Xorg_libpciaccess_jll]
+tree_hash = "58972370b81423fc546c56a60ed1a009450177c3"
+version = "0.19.0+0"
+
+[packages.nghttp2_jll]
+tree_hash = ""
+version = "1.64.0+1"
+
+[packages.FFTW_jll]
+tree_hash = "6866aec60ef98e3164cd8d6855225684207e9dff"
+version = "3.3.12+0"
+
+[packages.FFMPEG_jll]
+tree_hash = "7a58e45171b63ed4782f2d36fdee8713a469e6e0"
+version = "8.1.2+0"
+
+[packages.RecipesPipeline]
+tree_hash = "45cf9fd0ca5839d06ef333c8201714e888486342"
+version = "0.6.12"
+
+[packages.libblastrampoline_jll]
+tree_hash = ""
+version = "5.15.0+0"
+
+[packages.StatsBase]
+tree_hash = "e4d7a1a0edc20af42689ea6f4f3587a2175d50ee"
+version = "0.34.12"
+
+[packages.ConcurrentUtilities]
+tree_hash = "3c9be947934c38475bafe822c6d61aaed17f0738"
+version = "2.6.0"
+
+[packages.libass_jll]
+tree_hash = "125eedcb0a4a0bba65b657251ce1d27c8714e9d6"
+version = "0.17.4+0"
+
+[packages.Strided]
+tree_hash = "5fa7f6845c91e6e351880cee67a9efc3b892bd3b"
+version = "2.6.4"
+
+[packages.Ogg_jll]
+tree_hash = "b6aa4566bb7ae78498a5e68943863fa8b5231b59"
+version = "1.3.6+0"
+
+[packages.Libuuid_jll]
+tree_hash = "d620582b1f0cbe2c72dd1d5bd195a9ce73370ab1"
+version = "2.42.0+0"
+
+[packages.Parsers]
+tree_hash = "3de8f5e6e90ebfa8d6d1f86997d6cdcd6a912ff3"
+version = "2.8.7"
+
+[packages.Logging]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.libdecor_jll]
+tree_hash = "9bf7903af251d2050b467f76bdbe57ce541f7f4f"
+version = "0.2.2+0"
+
+[packages.SimpleBufferStream]
+tree_hash = "f305871d2f381d21527c770d4788c06c097c9bc1"
+version = "1.2.0"
+
+[packages.Downloads]
+tree_hash = ""
+version = "1.6.0"
+
+[packages.Zlib_jll]
+tree_hash = ""
+version = "1.3.1+2"
+
+[packages.IsApprox]
+tree_hash = "d1a10e34d7f2e163cc1ebb45824c0226a5b57e37"
+version = "2.0.1"
+
+[packages.Xorg_libXrender_jll]
+tree_hash = "7ed9347888fac59a618302ee38216dd0379c480d"
+version = "0.9.12+0"
+
+[packages.x264_jll]
+tree_hash = "14cc7083fc6dff3cc44f2bc435ee96d06ed79aa7"
+version = "10164.0.1+0"
+
+[packages.JuliaSyntaxHighlighting]
+tree_hash = ""
+version = "1.12.0"
+
+[packages.oneTBB_jll]
+tree_hash = "da8c1f6eee04831f14edcfa5dae611d309807e57"
+version = "2022.3.0+0"
+
+[packages.libvorbis_jll]
+tree_hash = "11e1772e7f3cc987e9d3de991dd4f6b2602663a5"
+version = "1.3.8+0"
+
+[packages.Grisu]
+tree_hash = "53bb909d1151e57e2484c3d1b53e19552b887fb2"
+version = "1.0.2"
+
+[packages.LERC_jll]
+tree_hash = "17b94ecafcfa45e8360a4fc9ca6b583b049e4e37"
+version = "4.1.0+0"
+
+[packages.StatsAPI]
+tree_hash = "178ed29fd5b2a2cfc3bd31c13375ae925623ff36"
+version = "1.8.0"
+
+[packages.Glib_jll]
+tree_hash = "090526e65de8f69648ac156daae153de8b56df62"
+version = "2.88.3+0"
+
+[packages.Colors]
+tree_hash = "37ea44092930b1811e666c3bc38065d7d87fcc74"
+version = "0.13.1"
+
+[packages.MacroTools]
+tree_hash = "1e0228a030642014fe5cfe68c2c0a818f9e3f522"
+version = "0.5.16"
+
+[packages.InteractiveUtils]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Setfield]
+tree_hash = "c5391c6ace3bc430ca630251d02ea9687169ca68"
+version = "1.1.2"
+
+[packages.FillArrays]
+tree_hash = "5bad39456d9f0166184fce2248783dd9862645c1"
+version = "1.17.0"
+
+[packages.Xorg_libXdmcp_jll]
+tree_hash = "52858d64353db33a56e13c341d7bf44cd0d7b309"
+version = "1.1.6+0"
+
+[packages.Accessors]
+tree_hash = "7063ad1083578215c7c4bf410368150abe8d5524"
+version = "0.1.45"
+
+[packages.GettextRuntime_jll]
+tree_hash = "45288942190db7c5f760f59c04495064eedf9340"
+version = "0.22.4+0"
+
+[packages.Pango_jll]
+tree_hash = "7126b66b721a605a2fec966a2874c5ed53258eb3"
+version = "1.58.0+0"
+
+[packages.OrderedCollections]
+tree_hash = "05f45c2e0de6259db764adbfd2f1dc6d3f8de13c"
+version = "2.0.1"
+
+[packages.FreeType2_jll]
+tree_hash = "70329abc09b886fd2c5d94ad2d9527639c421e3e"
+version = "2.14.3+1"
+
+[packages.Xorg_libxkbfile_jll]
+tree_hash = "ed756a03e95fff88d8f738ebc2849431bdd4fd1a"
+version = "1.2.0+0"
+
+[packages.DataStructures]
+tree_hash = "b0bc6d2cad1fed8b7fd59a1551a991cb3d2809e6"
+version = "0.19.6"
+
+[packages.Compat]
+tree_hash = "9d8a54ce4b17aa5bdce0ea5c34bc5e7c340d16ad"
+version = "4.18.1"
+
+[packages.Base64]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Graphite2_jll]
+tree_hash = "69ffb934a5c5b7e086a0b4fee3427db2556fba6e"
+version = "1.3.16+0"
+
+[packages.NDTensors]
+tree_hash = "66d86c534d6887e0b89fec21dd96e58d0d3a312f"
+version = "0.4.28"
+
+[packages.Sockets]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Expat_jll]
+tree_hash = "f4d39eee89f1e58c26bf447f1d4156c0125d6838"
+version = "2.8.3+0"
+
+[packages.Markdown]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Zstd_jll]
+tree_hash = "446b23e73536f84e8037f5dce465e92275f6a308"
+version = "1.5.7+1"
+
+[packages.Adapt]
+tree_hash = "daa72978cd7a624246e894a4f4f067706d4e17e2"
+version = "4.7.0"
+
+[packages.Showoff]
+tree_hash = "91eddf657aca81df9ae6ceb20b959ae5653ad1de"
+version = "1.0.3"
+
+[packages.HalfIntegers]
+tree_hash = "9c3149243abb5bc0bad0431d6c4fcac0f4443c7c"
+version = "1.6.0"
+
+[packages.FriBidi_jll]
+tree_hash = "7a214fdac5ed5f59a22c2d9a885a16da1c74bbc7"
+version = "1.0.17+0"
+
+[packages.SHA]
+tree_hash = ""
+version = "0.7.0"
+
+[packages.LoggingExtras]
+tree_hash = "f00544d95982ea270145636c181ceda21c4e2575"
+version = "1.2.0"
+
+[packages.GLFW_jll]
+tree_hash = "9e0fb9e54594c47f278d75063980e43066e26e20"
+version = "3.4.1+1"
+
+[packages.Qt6Svg_jll]
+tree_hash = "81587ff5ff25a4e1115ce191e36285ede0334c9d"
+version = "6.10.2+0"
+
+[packages.Format]
+tree_hash = "9c68794ef81b08086aeb32eeaf33531668d5f5fc"
+version = "1.3.7"
+
+[packages.ColorTypes]
+tree_hash = "67e11ee83a43eb71ddc950302c53bf33f0690dfe"
+version = "0.12.1"
+
+[packages.ITensorMPS]
+tree_hash = "640cd8828719b29895af18eacc8c6a7628285cdd"
+version = "0.4.1"
+
+[packages.ExceptionUnwrapping]
+tree_hash = "d36f682e590a83d63d1c7dbd287573764682d12a"
+version = "0.1.11"
+
+[packages.mtdev_jll]
+tree_hash = "b4d631fd51f2e9cdd93724ae25b2efc198b059b1"
+version = "1.1.7+0"
+
+[packages.MbedTLS_jll]
+tree_hash = "ff69a2b1330bcb730b9ac1ab7dd680176f5896b8"
+version = "2.28.1010+0"
+
+[packages.OpenSSL_jll]
+tree_hash = ""
+version = "3.5.1+0"
+
+[packages.Xorg_libXext_jll]
+tree_hash = "1a4a26870bf1e5d26cd585e38038d399d7e65706"
+version = "1.3.8+0"
+
+[packages.Contour]
+tree_hash = "439e35b0b36e2e5881738abc8857bd92ad6ff9a8"
+version = "0.6.3"
+
+[packages.OpenLibm_jll]
+tree_hash = ""
+version = "0.8.7+0"
+
+[packages.PackageExtensionCompat]
+tree_hash = "fb28e33b8a95c4cee25ce296c817d89cc2e53518"
+version = "1.0.2"
+
+[packages.URIs]
+tree_hash = "908fec9df6c5de98548ead82a468c95ccf6cd263"
+version = "1.7.0"
+
+[packages.Random]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Libdl]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.SortingAlgorithms]
+tree_hash = "13cd91cc9be159e3f4d95b857fa2aa383b53772a"
+version = "1.2.3"
+
+[packages.Serialization]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Xorg_xtrans_jll]
+tree_hash = "a63799ff68005991f9d9491b6e95bd3478d783cb"
+version = "1.6.0+0"
+
+[packages.PrecompileTools]
+tree_hash = "edbeefc7a4889f528644251bdb5fc9ab5348bc2c"
+version = "1.3.4"
+
+[packages.StructUtils]
+tree_hash = "2d0fc55c61321ba245c47be599570d11bac50303"
+version = "2.8.5"
+
+[packages.PlotUtils]
+tree_hash = "26ca162858917496748aad52bb5d3be4d26a228a"
+version = "1.4.4"
+
+[packages.JSON]
+tree_hash = "c7345ab1a7ca4dc8a02c9f6510da0d9857bbe513"
+version = "1.7.1"
+
+[packages.x265_jll]
+tree_hash = "e7b67590c14d487e734dcb925924c5dc43ec85f3"
+version = "4.1.0+0"
+
+[packages.EpollShim_jll]
+tree_hash = "8a4be429317c42cfae6a7fc03c31bad1970c310d"
+version = "0.0.20230411+1"
+
+[packages.Plots]
+tree_hash = "7b990898534ea9797bf9bf21bd086850e5d9f817"
+version = "1.41.2"
+
+[packages.BangBang]
+tree_hash = "cceb62468025be98d42a5dc581b163c20896b040"
+version = "0.4.9"
+
+[packages.OpenSSL]
+tree_hash = "1d1aaa7d449b58415f97d2839c318b70ffb525a0"
+version = "1.6.1"
+
+[packages.VectorInterface]
+tree_hash = "949dd28df19a5bf0973214e4a9d36c19079d4d45"
+version = "0.6.0"
+
+[packages.Zeros]
+tree_hash = "3286921ca285adecd40313c375540421be5fffeb"
+version = "0.5.0"
+
+[packages.Dbus_jll]
+tree_hash = "473e9afc9cf30814eb67ffa5f2db7df82c3ad9fd"
+version = "1.16.2+0"
+
+[packages.LibSSH2_jll]
+tree_hash = ""
+version = "1.11.3+1"
+
+[packages.OpenBLAS_jll]
+tree_hash = ""
+version = "0.3.29+0"
+
+[packages.Ghostscript_jll]
+tree_hash = "38044a04637976140074d0b0621c1edf0eb531fd"
+version = "9.55.1+0"
+
+[packages.Fontconfig_jll]
+tree_hash = "f85dac9a96a01087df6e3a749840015a0ca3817d"
+version = "2.17.1+0"
+
+[packages.Distributed]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.DelimitedFiles]
+tree_hash = "9e2f36d3c96a820c678f2f1f1782582fcf685bae"
+version = "1.9.1"
+
+[packages.FileWatching]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.DataValueInterfaces]
+tree_hash = "bfc1187b79289637fa0ef6d4436ebdfe6905cbd6"
+version = "1.0.0"
+
+[packages.SplitApplyCombine]
+tree_hash = "55db78e829cf726162fc4fc1b30d05f92092f3f6"
+version = "1.3.0"
+
+[packages.CompositionsBase]
+tree_hash = "802bb88cd69dfd1509f6670416bd4434015693ad"
+version = "0.1.2"
+
+[packages.libdrm_jll]
+tree_hash = "28e57478e8a160d346a19c28b3fffb9273bcc9c2"
+version = "2.4.134+0"
+
+[packages.SerializedElementArrays]
+tree_hash = "8e73e49eaebf73486446a3c1eede403bff259826"
+version = "0.1.0"
+
+[packages.eudev_jll]
+tree_hash = "c3b0e6196d50eab0c5ed34021aaa0bb463489510"
+version = "3.2.14+0"
+
+[packages.Wayland_jll]
+tree_hash = "96478df35bbc2f3e1e791bc7a3d0eeee559e60e9"
+version = "1.24.0+0"
+
+[packages.IteratorInterfaceExtensions]
+tree_hash = "a3f24677c21f5bbe9d2a714f95dcd58337fb2856"
+version = "1.0.0"
+
+[packages.libfdk_aac_jll]
+tree_hash = "646634dd19587a56ee2f1199563ec056c5f228df"
+version = "2.0.4+0"
+
+[packages.Requires]
+tree_hash = "62389eeff14780bfe55195b7204c0d8738436d64"
+version = "1.3.1"
+
+[packages.Xorg_libXau_jll]
+tree_hash = "aa1261ebbac3ccc8d16558ae6799524c450ed16b"
+version = "1.0.13+0"
+
+[packages.LogExpFunctions]
+tree_hash = "bba2d9aa057d8f126415de240573e86a8f39d2a1"
+version = "1.0.1"
+
+[packages.Cairo_jll]
+tree_hash = "1fa950ebc3e37eccd51c6a8fe1f92f7d86263522"
+version = "1.18.7+0"
+
+[packages.StyledStrings]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Missings]
+tree_hash = "ec4f7fbeab05d7747bdf98eb74d130a2a2ed298d"
+version = "1.2.0"
+
+[packages.ArgTools]
+tree_hash = ""
+version = "1.1.2"
+
+[packages.FFMPEG]
+tree_hash = "95ecf07c2eea562b5adbd0696af6db62c0f52560"
+version = "0.4.5"
+
+[packages.Xorg_xcb_util_renderutil_jll]
+tree_hash = "5b0263b6d080716a02544c55fdff2c8d7f9a16a0"
+version = "0.3.10+0"
+
+[packages.Dates]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.PlotThemes]
+tree_hash = "41031ef3a1be6f5bbbf3e8073f210556daeae5ca"
+version = "3.3.0"
+
+[packages.Libffi_jll]
+tree_hash = "c8da7e6a91781c41a863611c7e966098d783c57a"
+version = "3.4.7+0"
+
+[packages.LLVMOpenMP_jll]
+tree_hash = "b7970cef8ae1c990ba0c09cd8bdc1145e006632f"
+version = "22.1.7+0"
+
+[packages.BitIntegers]
+tree_hash = "091d591a060e43df1dd35faab3ca284925c48e46"
+version = "0.3.7"
+
+[packages.Xorg_xkeyboard_config_jll]
+tree_hash = "2e59214e017a55cb87474a00fa76035c82ac0e17"
+version = "2.47.0+2"
+
+[packages.REPL]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.ThreadedScans]
+tree_hash = "ca1ba3000289eacba571aaa4efcefb642e7a1de6"
+version = "0.1.0"
+
+[packages.libinput_jll]
+tree_hash = "91d05d7f4a9f67205bd6cf395e488009fe85b499"
+version = "1.28.1+0"
+
+[packages.MozillaCACerts_jll]
+tree_hash = ""
+version = "2025.5.20"
+
+[packages.DocStringExtensions]
+tree_hash = "7442a5dfe1ebb773c29cc2962a8980f47221d76c"
+version = "0.9.5"
+
+[packages.libva_jll]
+tree_hash = "7dbf96baae3310fe2fa0df0ccbb3c6288d5816c9"
+version = "2.23.0+0"
+
+[packages.Functors]
+tree_hash = "1ac2813982db52b974c9343124ca61adbf297316"
+version = "0.5.3"
+
+[packages.StaticArrays]
+tree_hash = "fac51faf3bb96e8bc0bf6f9f39ca4955652776bb"
+version = "1.9.19"
+
+[packages.TensorCore]
+tree_hash = "1feb45f88d133a655e001435632f019a9a1bcdb6"
+version = "0.1.1"
+
+[packages.Xorg_libXinerama_jll]
+tree_hash = "0ba01bc7396896a4ace8aab67db31403c71628f4"
+version = "1.1.7+0"
+
+[packages.NaNMath]
+tree_hash = "dbd2e8cd2c1c27f0b584f6661b4309609c5a685e"
+version = "1.1.4"
+
+[packages.Indexing]
+tree_hash = "ce1566720fd6b19ff3411404d4b977acd4814f9f"
+version = "1.1.1"
+
+[packages.Qt6Wayland_jll]
+tree_hash = "672c938b4b4e3e0169a07a5f227029d4905456f2"
+version = "6.10.2+1"
+
+[packages.InlineStrings]
+tree_hash = "8f3d257792a522b4601c24a577954b0a8cd7334d"
+version = "1.4.5"
+
+[packages.StridedViews]
+tree_hash = "21dc3942c478661f72c527ff5d67baa98e555372"
+version = "0.5.2"
+
+[packages.LibGit2_jll]
+tree_hash = ""
+version = "1.9.0+0"
+
+[packages.Xorg_xcb_util_image_jll]
+tree_hash = "f4fc02e384b74418679983a97385644b67e1263b"
+version = "0.4.1+0"
+
+[packages.ITensors]
+tree_hash = "9294fcfd772505110115c623aca48c72a202211f"
+version = "0.9.30"
+
+[packages.Pixman_jll]
+tree_hash = "e4a6721aa89e62e5d4217c0b21bd714263779dda"
+version = "0.46.4+0"
+
+[packages.Libmount_jll]
+tree_hash = "cc3ad4faf30015a3e8094c9b5b7f19e85bdf2386"
+version = "2.42.0+0"
+
+[packages.libaom_jll]
+tree_hash = "ef17c47d22224aaecc76e597ab21a072e025cf7b"
+version = "3.14.1+0"
+
+[packages.Xorg_xkbcomp_jll]
+tree_hash = "801a858fc9fb90c11ffddee1801bb06a738bda9b"
+version = "1.4.7+0"
+
+[packages.LaTeXStrings]
+tree_hash = "f88f3ccef05a6a72a0cf0ed417c8fd68530f4ab2"
+version = "1.4.1"
+
+[packages.InverseFunctions]
+tree_hash = "a779299d77cd080bf77b97535acecd73e1c5e5cb"
+version = "0.1.17"
+
+[packages.LibCURL]
+tree_hash = ""
+version = "0.6.4"
+
+[packages.Bzip2_jll]
+tree_hash = "1b96ea4a01afe0ea4090c5c8039690672dd13f2e"
+version = "1.0.9+0"
+
+[packages.BlockArrays]
+tree_hash = "75c9c4d41f387b58ac7ecac17a02062f4cf8e92a"
+version = "1.10.0"
+
+[packages.libpng_jll]
+tree_hash = "e51150d5ab85cee6fc36726850f0e627ad2e4aba"
+version = "1.6.58+0"
+
+[packages.ChainRulesCore]
+tree_hash = "12177ad6b3cad7fd50c8b3825ce24a99ad61c18f"
+version = "1.26.1"
+
+[packages.PCRE2_jll]
+tree_hash = ""
+version = "10.44.0+1"
+
+[packages.p7zip_jll]
+tree_hash = ""
+version = "17.5.0+2"
+
+[packages.FFTW]
+tree_hash = "97f08406df914023af55ade2f843c39e99c5d969"
+version = "1.10.0"
+
+[packages.Pkg]
+tree_hash = ""
+version = "1.12.0"
+
+[packages.Checkerboard]
+tree_hash = "54131c8dd0a650b4a562f5014c2890f20d842a86"
+version = "1.2.8"
+
+[packages.OffsetArrays]
+tree_hash = "117432e406b5c023f665fa73dc26e79ec3630151"
+version = "1.17.0"
+
+[packages.EllipsisNotation]
+tree_hash = "4337603d8124cf76db5e9a8077c2bf150040b2ed"
+version = "1.11.0"
+
+[packages.HTTP]
+tree_hash = "51059d23c8bb67911a2e6fd5130229113735fc7e"
+version = "1.11.0"
+
+[packages.libevdev_jll]
+tree_hash = "56d643b57b188d30cccc25e331d416d3d358e557"
+version = "1.13.4+0"
+
+[packages.Folds]
+tree_hash = "7eb4bc88d8295e387a667fd43d67c157ddee76cf"
+version = "0.2.10"
+
+[packages.GR_jll]
+tree_hash = "6fada551286ab6ea4ca1628cb2de9f166a2ec966"
+version = "0.73.26+0"
+
+[packages.Measures]
+tree_hash = "b513cedd20d9c914783d8ad83d08120702bf2c77"
+version = "0.3.3"
+
+[packages.CompilerSupportLibraries_jll]
+tree_hash = ""
+version = "1.3.0+1"
+
+[packages.Dictionaries]
+tree_hash = "a55766a9c8f66cf19ffcdbdb1444e249bb4ace33"
+version = "0.4.6"
+
+[packages.BitFlags]
+tree_hash = "bbe1079eecf9c9fbb52765193ad2bae27ae09bc8"
+version = "0.1.10"
+
+[packages.TranscodingStreams]
+tree_hash = "0c45878dcfdcfa8480052b6ab162cdd138781742"
+version = "0.11.3"
+
+[packages.Libglvnd_jll]
+tree_hash = "d36c21b9e7c172a44a10484125024495e2625ac0"
+version = "1.7.1+1"
+
+[packages.GR]
+tree_hash = "f954322d5de03ec630d177cda203dcd92b6be399"
+version = "0.73.26"
+
+[packages.Tar]
+tree_hash = ""
+version = "1.10.0"
+
+[packages.Qt6Declarative_jll]
+tree_hash = "159d253ab126d5b29230cf53521899bea4ef4648"
+version = "6.10.2+2"
+
+[packages.Xorg_libXcursor_jll]
+tree_hash = "6c74ca84bbabc18c4547014765d194ff0b4dc9da"
+version = "1.2.4+0"
+
+[packages.UUIDs]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.TimerOutputs]
+tree_hash = "3748bd928e68c7c346b52125cf41fff0de6937d0"
+version = "0.5.29"
+
+[packages.JLFzf]
+tree_hash = "82f7acdc599b65e0f8ccd270ffa1467c21cb647b"
+version = "0.1.11"
+
+[packages.LazyArtifacts]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.InitialValues]
+tree_hash = "4da0f88e9a39111c2fa3add390ab15f3a44f3ca3"
+version = "0.3.1"
+
+[packages.Xorg_libICE_jll]
+tree_hash = "a3ea76ee3f4facd7a64684f9af25310825ee3668"
+version = "1.1.2+0"
+
+[packages.Xorg_libXfixes_jll]
+tree_hash = "75e00946e43621e09d431d9b95818ee751e6b2ef"
+version = "6.0.2+0"
+
+[packages.JLLWrappers]
+tree_hash = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
+version = "1.8.0"
+
+[packages.CodecZlib]
+tree_hash = "970758a3d591a2a5c2a907c53f2e2f8c1b1d3537"
+version = "0.7.9"
+
+[packages.Xorg_libXrandr_jll]
+tree_hash = "6c174ef70c96c76f4c3f4d3cfbe09d018bcd1b53"
+version = "1.5.6+0"
+
+[packages.JDQMCFramework]
+tree_hash = "97a2c2eb5511ebddc6c6b19e13c2839d450cd75b"
+version = "1.2.6"
+
+[packages.MbedTLS]
+tree_hash = "8785729fa736197687541f7053f6d8ab7fc44f92"
+version = "1.1.10"
+
+[packages.Artifacts]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.SplittablesBase]
+tree_hash = "e08a62abc517eb79667d0a29dc08a3b589516bb5"
+version = "0.1.15"
+
+[packages.Xorg_xcb_util_cursor_jll]
+tree_hash = "9750dc53819eba4e9a20be42349a6d3b86c7cdf8"
+version = "0.1.6+0"
+
+[packages.LAME_jll]
+tree_hash = "059aabebaa7c82ccb853dd4a0ee9d17796f7e1bc"
+version = "3.100.3+0"
+
+[packages.AliasTables]
+tree_hash = "9876e1e164b144ca45e9e3198d0b689cadfed9ff"
+version = "1.1.3"
+
+[packages.Referenceables]
+tree_hash = "02d31ad62838181c1a3a5fd23a1ce5914a643601"
+version = "0.1.3"
+
+[packages.Test]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Qt6ShaderTools_jll]
+tree_hash = "4d85eedf69d875982c46643f6b4f66919d7e157b"
+version = "6.10.2+1"
+
+[packages.SimpleTraits]
+tree_hash = "7ddb0b49c109481b046972c0e4ab02b2127d6a75"
+version = "0.9.6"
+
+[packages.IntelOpenMP_jll]
+tree_hash = "ec1debd61c300961f98064cfb21287613ad7f303"
+version = "2025.2.0+0"
+
+[packages.ColorSchemes]
+tree_hash = "b0fd3f56fa442f81e0a47815c92245acfaaa4e34"
+version = "3.31.0"
+
+[packages.Unzip]
+tree_hash = "ca0969166a028236229f63514992fc073799bb78"
+version = "0.2.0"
+
+[packages.TypeParameterAccessors]
+tree_hash = "15553df00a2e5ddac528c859f356aa866f32e44d"
+version = "0.4.23"
+
+[packages.SuiteSparse_jll]
+tree_hash = ""
+version = "7.8.3+2"
+
+[packages.Xorg_xcb_util_jll]
+tree_hash = "68da27247e7d8d8dafd1fcf0c3654ad6506f5f97"
+version = "0.4.1+0"
+
+[packages.Xorg_xcb_util_wm_jll]
+tree_hash = "f233c83cad1fa0e70b7771e0e21b061a116f2763"
+version = "0.4.2+0"
+
+[packages.Xorg_libX11_jll]
+tree_hash = "808090ede1d41644447dd5cbafced4731c56bd2f"
+version = "1.8.13+0"
+
+[packages.Mmap]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Preferences]
+tree_hash = "8b770b60760d4451834fe79dd483e318eee709c4"
+version = "1.5.2"
+
+[packages.LibCURL_jll]
+tree_hash = ""
+version = "8.11.1+1"
+
+[packages.DataAPI]
+tree_hash = "abe83f3a2f1b857aac70ef8b269080af17764bbe"
+version = "1.16.0"
+
+[packages.JDQMCMeasurements]
+tree_hash = "0eac83f03dd5ae71ebaed7b213772b8ec930dfdd"
+version = "1.9.2"
+
+[packages.TOML]
+tree_hash = ""
+version = "1.0.3"
+
+[packages.fzf_jll]
+tree_hash = "b6a34e0e0960190ac2a4363a1bd003504772d631"
+version = "0.61.1+0"
+
+[packages.Reexport]
+tree_hash = "45e428421666073eab6f2da5c9d310d99bb12f9b"
+version = "1.2.2"
+
+[packages.Qt6Base_jll]
+tree_hash = "144895f6166994730ee7ff8113b981fc360638f1"
+version = "6.10.2+2"
+
+[packages.Statistics]
+tree_hash = "ae3bb1eb3bba077cd276bc5cfc337cc65c3075c0"
+version = "1.11.1"
+
+[packages.Transducers]
+tree_hash = "4aa1fdf6c1da74661f6f5d3edfd96648321dade9"
+version = "0.4.85"
+
+[packages.StaticArraysCore]
+tree_hash = "6ab403037779dae8c514bad259f32a447262455a"
+version = "1.4.4"
+
+[packages.LatticeUtilities]
+tree_hash = "96f352fe5c8c2eed1b2a45806568cc2e4b40c321"
+version = "2.0.7"
+
+[packages.ShiftedArrays]
+tree_hash = "503688b59397b3307443af35cd953a13e8005c16"
+version = "2.0.0"
+
+[packages.JpegTurbo_jll]
+tree_hash = "037babc10853eeb8e585418922246cb97b8e5b74"
+version = "3.2.0+1"
+
+[packages.Vulkan_Loader_jll]
+tree_hash = "2f0486047a07670caad3a81a075d2e518acc5c59"
+version = "1.3.243+0"
+
+[packages.StableRNGs]
+tree_hash = "4f96c596b8c8258cc7d3b19797854d368f243ddc"
+version = "1.0.4"
+
+[packages.Libtiff_jll]
+tree_hash = "aebd334d06cee9f24cea70bd19a39749daf73881"
+version = "4.7.3+0"
+
+[packages.ExternalDocstrings]
+tree_hash = "1224740fc4d07c989949e1c1b508ebd49a65a5f6"
+version = "0.1.1"
+
+[packages.Tables]
+tree_hash = "0f38a06c83f0007bbab3cf911262841c9a0f07e0"
+version = "1.13.0"
+
+[packages.Scratch]
+tree_hash = "9b81b8393e50b7d4e6d0a9f14e192294d3b7c109"
+version = "1.3.0"
+
+[packages.SparseArrays]
+tree_hash = ""
+version = "1.12.0"
+
+[packages.Unicode]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.ArgCheck]
+tree_hash = "f9e9a66c9b7be1ad7372bbd9b062d9230c30c5ce"
+version = "2.5.0"
+
+[packages.MicroCollections]
+tree_hash = "44d32db644e84c75dab479f1bc15ee76a1a3618f"
+version = "0.2.0"
+
+[packages.Xorg_libXi_jll]
+tree_hash = "dcb316b3ce0941f195537dda56bea4517fcd3ff5"
+version = "1.8.4+0"
+
+[packages.PtrArrays]
+tree_hash = "4fbbafbc6251b883f4d2705356f3641f3652a7fe"
+version = "1.4.0"
+
+[settings]
+periodic = [false, false]
+U_values = [0.0, 2.0]
+sweeps_per_measurement = 1
+checkerboard = false
+measurements = 20000
+energy_normalization = "per site"
+symmetric = false
+burnin = 1000
+bins = 40
+mu = 0.0
+beta = 2.0
+root_seeds = [17011, 27011, 37013, 47017]
+Ly = 2
+n_stab = 10
+hamiltonian = "sum(K_ij cdag_i c_j) + U sum((nup-1/2)(ndn-1/2)) - mu N"
+Lx = 2
+ensemble = "grand canonical"
+sites = 4
+t = 1.0
+propagator = "exp(-dtau V) exp(-dtau K)"
+dtau = 0.05
+
+[script_sha256]
+"dqmc_common.jl" = "5531dfe3de14473bebfdfe1f318e1103348f27d9a21fe1db0f3cf4c3785dc9aa"
+"dqmc_local.jl" = "6b7074ce276e60e1189fd24bee0cfe9a6a56e51584f648393704288ec1ba6d1a"

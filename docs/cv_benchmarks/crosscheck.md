@@ -1,4 +1,8 @@
-# Independent package cross-check
+# Regression and independent full-Fock checks
+
+This report covers analytic, full-Fock and internal ED/DMRG checks. Actual
+runs against **SmoQyDQMC, QuSpin and TeNPy** were completed separately on
+October 22, 2026; see the [external-package comparison](external_packages.md).
 
 The public package was checked from a fresh HTTPS clone of commit
 `f8c6386dd6083a4a51c5ea5455b78306be444945`, then checked again after the

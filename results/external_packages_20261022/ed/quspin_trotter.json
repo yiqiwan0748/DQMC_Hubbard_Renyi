@@ -1,0 +1,122 @@
+{
+  "hamiltonian": "sum(Kij cdag_i c_j)+U sum((nup-.5)(ndn-.5))-mu*N",
+  "transfer": "exp(-dtau*V) @ exp(-dtau*K)",
+  "observables": "trace(O @ transfer**steps)/trace(transfer**steps)",
+  "python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "versions": {
+    "quspin": "1.0.1",
+    "quspin-extensions": "0.1.8",
+    "parallel-sparse-tools": "0.2.5",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "sha256": {
+    "/home/yqw/code/HubbardRenyiDQMC/analysis/external_packages/ed_quspin_trotter.py": "4f0042e6bcc292b2adfc547f738d2c82555fd92b6160a2cf70fe5100138b6dc2",
+    "/home/yqw/code/HubbardRenyiDQMC/analysis/external_packages/ed_quspin.py": "ea0e13110bb4eb2d09a201946c1ddefa59d52e13573968b407c70220494b5ac1"
+  },
+  "cases": [
+    {
+      "U": 0.0,
+      "t": 1.0,
+      "mu": 0.0,
+      "shape": [
+        2,
+        2
+      ],
+      "periodic": [
+        false,
+        false
+      ],
+      "beta": 2.0,
+      "dtau": 0.05,
+      "steps": 40,
+      "dimension": 256,
+      "K": [
+        [
+          0.0,
+          -1.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "energy": -3.8561103203032676,
+      "energy_per_site": -0.9640275800758169,
+      "density": 1.0,
+      "double_occupancy": 0.25,
+      "logZ": 10.84518843391102,
+      "continuum_energy": -3.856110320303265,
+      "continuum_energy_per_site": -0.9640275800758162,
+      "continuum_double_occupancy": 0.2500000000000002
+    },
+    {
+      "U": 2.0,
+      "t": 1.0,
+      "mu": 0.0,
+      "shape": [
+        2,
+        2
+      ],
+      "periodic": [
+        false,
+        false
+      ],
+      "beta": 2.0,
+      "dtau": 0.05,
+      "steps": 40,
+      "dimension": 256,
+      "K": [
+        [
+          0.0,
+          -1.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "energy": -4.293094163104793,
+      "energy_per_site": -1.0732735407761982,
+      "density": 1.0,
+      "double_occupancy": 0.16113539181310976,
+      "logZ": 11.563703768818065,
+      "continuum_energy": -4.289791719765118,
+      "continuum_energy_per_site": -1.0724479299412795,
+      "continuum_double_occupancy": 0.16138497103785854
+    }
+  ]
+}

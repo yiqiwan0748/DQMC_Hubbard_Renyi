@@ -1,0 +1,60 @@
+# Shared finite-system inputs for the Julia wrapper and independent TeNPy DMRG.
+# All boundaries are open; sites use x + y*Lx with zero-based coordinates.
+
+[[cases]]
+name = "square_2x2_U4"
+Lx = 2
+Ly = 2
+t = 1.0
+U = 4.0
+mu = 0.0
+Nup = 2
+Ndn = 2
+cut = 2
+
+[[cases]]
+name = "rectangle_3x2_U4"
+Lx = 3
+Ly = 2
+t = 1.0
+U = 4.0
+mu = 0.0
+Nup = 3
+Ndn = 3
+cut = 3
+
+[[cases]]
+name = "rectangle_3x2_U4_one_hole"
+Lx = 3
+Ly = 2
+t = 1.0
+U = 4.0
+mu = 0.35
+Nup = 3
+Ndn = 2
+cut = 3
+
+[[cases]]
+name = "chain_6x1_U2"
+Lx = 6
+Ly = 1
+t = 1.0
+U = 2.0
+mu = 0.0
+Nup = 3
+Ndn = 3
+cut = 3
+
+[[settings]]
+name = "standard"
+root_seed = 1234
+nsweeps = 10
+maxdim = [16, 32, 64, 128]
+cutoff = 1.0e-13
+
+[[settings]]
+name = "tight"
+root_seed = 4321
+nsweeps = 14
+maxdim = [32, 64, 128, 256]
+cutoff = 1.0e-14

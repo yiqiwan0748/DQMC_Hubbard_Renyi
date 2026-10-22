@@ -28,3 +28,4 @@ results/processed/*.ps1
 # Local checkout used to publish the public source release
 output/github_release/
 output/crosscheck_*/
+output/external_packages_*/

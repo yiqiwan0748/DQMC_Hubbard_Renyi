@@ -1,0 +1,9 @@
+Public DMRG: square_2x2_U4 / standard
+Public DMRG: square_2x2_U4 / tight
+Public DMRG: rectangle_3x2_U4 / standard
+Public DMRG: rectangle_3x2_U4 / tight
+Public DMRG: rectangle_3x2_U4_one_hole / standard
+Public DMRG: rectangle_3x2_U4_one_hole / tight
+Public DMRG: chain_6x1_U2 / standard
+Public DMRG: chain_6x1_U2 / tight
+Wrote /home/yqw/code/HubbardRenyiDQMC/results/external_packages_20261022/dmrg/public.csv

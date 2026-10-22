@@ -1,0 +1,4 @@
+Julia 1.12.1
+ITensorMPS 0.4.1
+ITensors 0.9.30
+BLAS: LBTConfig([ILP64] libopenblas64_.so)

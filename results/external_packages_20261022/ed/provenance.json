@@ -1,0 +1,27 @@
+{
+  "sha256": {
+    "analysis/external_packages/ed_cases.toml": "f18d244df8e0b8d52d56010b406d49b883cd7d2e0e02a2c9019a690fb9646225",
+    "results/external_packages_20261022/ed/julia_results_final.toml": "b0110f84f2102c8d61f57bba0158d8337bbfeb944c906fa8e21dd94a7f34c120",
+    "/home/yqw/code/HubbardRenyiDQMC/analysis/external_packages/ed_quspin.py": "ea0e13110bb4eb2d09a201946c1ddefa59d52e13573968b407c70220494b5ac1",
+    "/home/yqw/code/HubbardRenyiDQMC/analysis/external_packages/ed_julia.jl": "54002898d13fe350dc25364d68982427448027a83ac1f9342a9cc809a25ab9cd",
+    "/home/yqw/code/HubbardRenyiDQMC/output/github_release/src/HubbardRenyiDQMC.jl": "0c662479ae2d52567e665a06b73608fddff5d39c678fbb711bf05a13cd826a6b",
+    "/home/yqw/code/HubbardRenyiDQMC/output/github_release/src/exact_diagonalization.jl": "f363a38e9041c613dfdfa112390669567ed7b341f7e818c0a6929c09d321129d",
+    "/home/yqw/code/HubbardRenyiDQMC/output/github_release/src/square_lattice.jl": "6dcde5fb5732972480d67c02ad878a0b91388ac517913c247bcdad8b3dd7e813"
+  },
+  "installed_distributions": {
+    "gmpy2": "2.3.2",
+    "importlib": "1.0.4",
+    "scipy": "1.18.1",
+    "numexpr": "2.14.2",
+    "six": "1.17.0",
+    "llvmlite": "0.50.0",
+    "joblib": "1.6.0",
+    "cloudpickle": "3.1.2",
+    "numba": "0.68.0",
+    "quspin": "1.0.1",
+    "quspin-extensions": "0.1.8",
+    "parallel-sparse-tools": "0.2.5",
+    "numpy": "2.5.4",
+    "dill": "0.4.1"
+  }
+}

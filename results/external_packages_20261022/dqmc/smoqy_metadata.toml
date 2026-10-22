@@ -1,0 +1,431 @@
+timestamp_utc = "2026-10-22T04:06:38.133"
+blas = "LBTConfig([ILP64] libopenblas64_.so)"
+updates = "official SmoQyDQMC.local_updates!; no reflection updates"
+K_rows = [[0.0, -1.0, -1.0, 0.0], [-1.0, 0.0, 0.0, -1.0], [-1.0, 0.0, 0.0, -1.0], [0.0, -1.0, -1.0, 0.0]]
+propagator_type = "JDQMCFramework.AsymExactPropagator{Float64, Float64}"
+julia_version = "1.12.1"
+architecture = "x86_64"
+cpu = "AMD Ryzen 7 7700X 8-Core Processor"
+computational_cell_periodic = [true, true]
+upstream_tutorial = "https://smoqysuite.github.io/SmoQyDQMC.jl/stable/tutorials/hubbard_square/"
+blas_threads = 1
+measurements = "native SmoQyDQMC hopping/Hubbard energies and JDQMCMeasurements density/double occupancy"
+bond_orbitals = [[1, 2], [1, 3], [2, 4], [3, 4]]
+upstream_source = "https://github.com/SmoQySuite/SmoQyDQMC.jl"
+engine = "SmoQyDQMC"
+julia_threads = 1
+unit_cell_count = [1, 1]
+kernel = "Linux"
+bond_displacements = [[0, 0], [0, 0], [0, 0], [0, 0]]
+unit_cell_orbitals = [[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [1.0, 1.0]]
+
+[packages.FastLapackInterface]
+tree_hash = "c1293a93193f0ae94be7cf338d33e162c39d8788"
+version = "1.2.9"
+
+[packages.Pkg]
+tree_hash = ""
+version = "1.12.0"
+
+[packages.MuTuner]
+tree_hash = "38d6bf08718b0be52d7c30c05131fa3512082cfe"
+version = "1.2.6"
+
+[packages.Checkerboard]
+tree_hash = "54131c8dd0a650b4a562f5014c2890f20d842a86"
+version = "1.2.8"
+
+[packages.OffsetArrays]
+tree_hash = "117432e406b5c023f665fa73dc26e79ec3630151"
+version = "1.17.0"
+
+[packages.OrderedCollections]
+tree_hash = "b079a6affebde167dad8ffe0d670b53917fbcb68"
+version = "2.0.3"
+
+[packages.Compat]
+tree_hash = "9d8a54ce4b17aa5bdce0ea5c34bc5e7c340d16ad"
+version = "4.18.1"
+
+[packages.Base64]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Glob]
+tree_hash = "246c628cec062230b7d183aab88841fa94fcabe9"
+version = "1.5.0"
+
+[packages.JLD2]
+tree_hash = "9ce2e7c49ae4a7035b7d60db3a553b1f6c16875d"
+version = "0.6.7"
+
+[packages.CompilerSupportLibraries_jll]
+tree_hash = ""
+version = "1.3.0+1"
+
+[packages.Sockets]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.HashArrayMappedTries]
+tree_hash = "2eaa69a7cab70a52b9687c8bf950a5a93ec895ae"
+version = "0.2.0"
+
+[packages.MPItrampoline_jll]
+tree_hash = "09a99227205419c00e734f413ee98c18bc1b02e4"
+version = "5.5.7+0"
+
+[packages.Markdown]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.TranscodingStreams]
+tree_hash = "0c45878dcfdcfa8480052b6ab162cdd138781742"
+version = "0.11.3"
+
+[packages.Zstd_jll]
+tree_hash = "446b23e73536f84e8037f5dce465e92275f6a308"
+version = "1.5.7+1"
+
+[packages.Requires]
+tree_hash = "62389eeff14780bfe55195b7204c0d8738436d64"
+version = "1.3.1"
+
+[packages.Tar]
+tree_hash = ""
+version = "1.10.0"
+
+[packages.AbstractFFTs]
+tree_hash = "d92ad398961a3ed262d8bf04a1a2b8340f915fef"
+version = "1.5.0"
+
+[packages.StableLinearAlgebra]
+tree_hash = "02b6a6351dff482731f9361d1a164a7d4f2d2fb0"
+version = "1.5.1"
+
+[packages.ScopedValues]
+tree_hash = "67a144433c4ce877ee6d1ada69a124d6b1ecf7be"
+version = "1.6.2"
+
+[packages.UUIDs]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.SHA]
+tree_hash = ""
+version = "0.7.0"
+
+[packages.StyledStrings]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.LinearAlgebra]
+tree_hash = ""
+version = "1.12.0"
+
+[packages.LazyArtifacts]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.ChunkCodecCore]
+tree_hash = "3496e2b359c27793d12bec54ec94be7983a6ceb2"
+version = "1.0.2"
+
+[packages.ArgTools]
+tree_hash = ""
+version = "1.1.2"
+
+[packages.JLLWrappers]
+tree_hash = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
+version = "1.8.0"
+
+[packages.Format]
+tree_hash = "9c68794ef81b08086aeb32eeaf33531668d5f5fc"
+version = "1.3.7"
+
+[packages.ChunkCodecLibZlib]
+tree_hash = "d4101e848e8d3f585d61d244c2fe0c80a70e6b3b"
+version = "1.1.0"
+
+[packages.LibGit2]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.HDF5]
+tree_hash = "26e37af34e8ccb7a8358bd8de1619c7bcb526738"
+version = "0.17.4"
+
+[packages.CodecZlib]
+tree_hash = "970758a3d591a2a5c2a907c53f2e2f8c1b1d3537"
+version = "0.7.9"
+
+[packages.JDQMCFramework]
+tree_hash = "97a2c2eb5511ebddc6c6b19e13c2839d450cd75b"
+version = "1.2.6"
+
+[packages.Artifacts]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.FileIO]
+tree_hash = "6621fef488e496356c9c9625d0562c12a6070819"
+version = "1.20.0"
+
+[packages.Dates]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.OpenSSL_jll]
+tree_hash = ""
+version = "3.5.1+0"
+
+[packages.NetworkOptions]
+tree_hash = ""
+version = "1.3.0"
+
+[packages.MKL_jll]
+tree_hash = "282cadc186e7b2ae0eeadbd7a4dffed4196ae2aa"
+version = "2025.2.0+0"
+
+[packages.Hwloc_jll]
+tree_hash = "cbbd99d516990d05c02aa132aa077b2bf50ae323"
+version = "2.15.0+0"
+
+[packages.Printf]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Libiconv_jll]
+tree_hash = "be484f5c92fad0bd8acfef35fe017900b0b73809"
+version = "1.18.0+0"
+
+[packages.Xorg_libpciaccess_jll]
+tree_hash = "58972370b81423fc546c56a60ed1a009450177c3"
+version = "0.19.0+0"
+
+[packages.MicrosoftMPI_jll]
+tree_hash = "bc95bf4149bf535c09602e3acdf950d9b4376227"
+version = "10.1.4+3"
+
+[packages.SmoQyDQMC]
+tree_hash = "0d1f705a9a20cdabe2ccb1e7601b55dfe8425e75"
+version = "2.0.14"
+
+[packages.nghttp2_jll]
+tree_hash = ""
+version = "1.64.0+1"
+
+[packages.Test]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.libaec_jll]
+tree_hash = "60f4792734488db6f42e2c7699f1d4594780bd03"
+version = "1.1.7+0"
+
+[packages.Random]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.Libdl]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.FFTW_jll]
+tree_hash = "6866aec60ef98e3164cd8d6855225684207e9dff"
+version = "3.3.12+0"
+
+[packages.IntelOpenMP_jll]
+tree_hash = "ec1debd61c300961f98064cfb21287613ad7f303"
+version = "2025.2.0+0"
+
+[packages.Serialization]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.PrecompileTools]
+tree_hash = "edbeefc7a4889f528644251bdb5fc9ab5348bc2c"
+version = "1.3.4"
+
+[packages.HDF5_jll]
+tree_hash = "82a471768b513dc39e471540fdadc84ff80ff997"
+version = "1.14.3+3"
+
+[packages.MPICH_jll]
+tree_hash = "08cb47f95a2f1b795e43a9e4f9783e68ecdc1ca6"
+version = "5.0.3+0"
+
+[packages.libblastrampoline_jll]
+tree_hash = ""
+version = "5.15.0+0"
+
+[packages.MozillaCACerts_jll]
+tree_hash = ""
+version = "2025.5.20"
+
+[packages.XML2_jll]
+tree_hash = "b826aedca5fce2e3c91904e338c279e5c1a2da74"
+version = "2.15.4+0"
+
+[packages.Mmap]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.DocStringExtensions]
+tree_hash = "38ef52f18cbdfa783ec6c25acc23fb1e8525ec16"
+version = "0.10.2"
+
+[packages.Preferences]
+tree_hash = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+version = "1.6.1"
+
+[packages.StaticArrays]
+tree_hash = "8a8a52f887f38d44014e24ee46b8a7311c625f6d"
+version = "1.9.24"
+
+[packages.LibCURL_jll]
+tree_hash = ""
+version = "8.11.1+1"
+
+[packages.JDQMCMeasurements]
+tree_hash = "0eac83f03dd5ae71ebaed7b213772b8ec930dfdd"
+version = "1.9.2"
+
+[packages.Logging]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.TOML]
+tree_hash = ""
+version = "1.0.3"
+
+[packages.Reexport]
+tree_hash = "45e428421666073eab6f2da5c9d310d99bb12f9b"
+version = "1.2.2"
+
+[packages.Downloads]
+tree_hash = ""
+version = "1.6.0"
+
+[packages.LibSSH2_jll]
+tree_hash = ""
+version = "1.11.3+1"
+
+[packages.MPIPreferences]
+tree_hash = "8e98d5d80b87403c311fd51e8455d4546ba7a5f8"
+version = "0.1.12"
+
+[packages.StaticArraysCore]
+tree_hash = "6ab403037779dae8c514bad259f32a447262455a"
+version = "1.4.4"
+
+[packages.Statistics]
+tree_hash = "e2b53ce13a53367e96601081e33d34746b571bad"
+version = "1.11.5"
+
+[packages.MPI]
+tree_hash = "7b7af40eaafefa3b85178e4028b5a094880e5abd"
+version = "0.20.29"
+
+[packages.OpenBLAS_jll]
+tree_hash = ""
+version = "0.3.29+0"
+
+[packages.LatticeUtilities]
+tree_hash = "96f352fe5c8c2eed1b2a45806568cc2e4b40c321"
+version = "2.0.7"
+
+[packages.Zlib_jll]
+tree_hash = ""
+version = "1.3.1+2"
+
+[packages.LibGit2_jll]
+tree_hash = ""
+version = "1.9.0+0"
+
+[packages.ShiftedArrays]
+tree_hash = "503688b59397b3307443af35cd953a13e8005c16"
+version = "2.0.0"
+
+[packages.Distributed]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.MPIABI_jll]
+tree_hash = "42e2cada9f35500b4d227106ce2b60e85d9f15bc"
+version = "1.0.1+0"
+
+[packages.JuliaSyntaxHighlighting]
+tree_hash = ""
+version = "1.12.0"
+
+[packages.FileWatching]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.oneTBB_jll]
+tree_hash = "ed2d8d4ad96c03d3abe3382cdbbdea9489b63636"
+version = "2023.1.0+0"
+
+[packages.LibCURL]
+tree_hash = ""
+version = "0.6.4"
+
+[packages.PkgVersion]
+tree_hash = "f9501cc0430a26bc3d156ae1b5b0c1b47af4d6da"
+version = "0.3.3"
+
+[packages.Unicode]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.MacroTools]
+tree_hash = "1e0228a030642014fe5cfe68c2c0a818f9e3f522"
+version = "0.5.16"
+
+[packages.InteractiveUtils]
+tree_hash = ""
+version = "1.11.0"
+
+[packages.ChunkCodecLibZstd]
+tree_hash = "34d9873079e4cb3d0c62926a225136824677073f"
+version = "1.0.0"
+
+[packages.p7zip_jll]
+tree_hash = ""
+version = "17.5.0+2"
+
+[packages.OpenMPI_jll]
+tree_hash = "9b474574116b97a9f805291123cbf39177a61a24"
+version = "4.1.11+0"
+
+[packages.FFTW]
+tree_hash = "97f08406df914023af55ade2f843c39e99c5d969"
+version = "1.10.0"
+
+[settings]
+periodic = [false, false]
+U_values = [0.0, 2.0]
+sweeps_per_measurement = 1
+checkerboard = false
+measurements = 20000
+energy_normalization = "per site"
+symmetric = false
+burnin = 1000
+bins = 40
+mu = 0.0
+beta = 2.0
+root_seeds = [517011, 527011, 537013, 547017]
+Ly = 2
+n_stab = 10
+hamiltonian = "sum(K_ij cdag_i c_j) + U sum((nup-1/2)(ndn-1/2)) - mu N"
+Lx = 2
+ensemble = "grand canonical"
+sites = 4
+t = 1.0
+propagator = "exp(-dtau V) exp(-dtau K)"
+dtau = 0.05
+
+[script_sha256]
+"dqmc_smoqy.jl" = "daff93e4640dc963c25e1ee12325052968d631e7742028980fa9f17730805ac2"
+"dqmc_common.jl" = "5531dfe3de14473bebfdfe1f318e1103348f27d9a21fe1db0f3cf4c3785dc9aa"
