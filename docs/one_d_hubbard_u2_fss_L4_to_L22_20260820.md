@@ -3,6 +3,11 @@
 > Historical validation record. See [`dqmc_renyi_ee.md`](dqmc_renyi_ee.md)
 > for the current scientific summary and conclusions.
 
+> Source-release note: the historical data, figure scripts, and separate FSS
+> environment referenced below are omitted. Reproducing those artifacts requires
+> the original research workspace. Included package checks are listed in
+> [REPRODUCIBILITY.md](../REPRODUCIBILITY.md).
+
 ## Result
 
 This note extends the accepted finite-size dataset with validated DQMC points

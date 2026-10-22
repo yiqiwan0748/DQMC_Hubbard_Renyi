@@ -1,0 +1,35 @@
+PASS: ed used Julia 1.12.1, one Julia thread, one BLAS thread
+PASS: ed CLI completed without an error
+PASS: dmrg used Julia 1.12.1, one Julia thread, one BLAS thread
+PASS: dmrg CLI completed without an error
+PASS: square used Julia 1.12.1, one Julia thread, one BLAS thread
+PASS: square CLI completed without an error
+PASS: DMRG CSV has all 20 expected metadata and result columns
+PASS: DMRG CSV has one result row
+PASS: DMRG recorded the default lattice and particle sector
+PASS: DMRG recorded hopping, interaction, chemical potential, and both boundaries
+PASS: DMRG recorded all default solver settings
+PASS: DMRG agrees with saved full ED: energy difference=9.76996261670138E-15; S2 difference=2.45137243837235E-13
+PASS: DQMC summary has four observables plus sign, acceptance, and stabilization diagnostic
+PASS: DQMC reference contains energy
+PASS: DQMC energy mean differs from prior example by 0 (limit 1e-8)
+PASS: DQMC reference contains energy_per_site
+PASS: DQMC energy_per_site mean differs from prior example by 0 (limit 1e-8)
+PASS: DQMC reference contains density
+PASS: DQMC density mean differs from prior example by 0 (limit 1e-8)
+PASS: DQMC reference contains double_occupancy
+PASS: DQMC double_occupancy mean differs from prior example by 0 (limit 1e-8)
+PASS: DQMC reference contains average_sign
+PASS: DQMC average_sign mean differs from prior example by 0 (limit 1e-8)
+PASS: DQMC reference contains acceptance
+PASS: DQMC acceptance mean differs from prior example by 0 (limit 1e-8)
+PASS: DQMC reference contains deltaG_max
+PASS: DQMC deltaG_max mean differs from prior example by 0 (limit 1e-8)
+PASS: DQMC wrote 40 measurement bins
+PASS: DQMC summary.csv is byte-identical to the prior saved example; SHA256=15f3f136e5d81ef7c6c86c775ca240e06242d8678b34b44b61835b3825a85751
+PASS: DQMC bins.csv is byte-identical to the prior saved example; SHA256=7c4c84d30381253cefcda705f39340909fbab3114ab026782b537f94913ed3b4
+PASS: DQMC parameters.toml is byte-identical to the prior saved example; SHA256=9972ef22f8b9a2f12d7eb1b0778d38a9679808f3406e685e701750e0030283ba
+PASS: dmrg repeat run refuses its existing output
+PASS: square repeat run refuses its existing output
+PASS: DMRG CSV hash is unchanged after the refused repeat run
+All CLI smoke verification checks passed.

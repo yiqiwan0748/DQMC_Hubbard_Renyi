@@ -1,5 +1,10 @@
 # U=4 PBC FSS campaign through L=22
 
+> Historical campaign plan. The scheduled task, machine paths, campaign helpers,
+> and accepted outputs below belong to the original research workspace and are
+> omitted from this source release. For included package checks and portable
+> commands, see [REPRODUCIBILITY.md](../REPRODUCIBILITY.md).
+
 ## Objective
 
 Repeat the accepted U=2 half-chain finite-size series at U=4 and compare DQMC

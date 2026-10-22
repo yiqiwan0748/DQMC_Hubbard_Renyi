@@ -4,7 +4,7 @@ using TOML
 using Printf
 using LinearAlgebra
 
-function square_hubbard_main(args = ARGS)
+function square_hubbard_main(args = ARGS; run_simulation = run_square_dqmc)
     if isempty(args) || "--help" in args
         println("Run square-lattice Hubbard DQMC: julia --project=. .\\run\\run_square_hubbard.jl .\\parameters\\square_4x4.toml [--output-dir DIR]")
         return
@@ -14,19 +14,26 @@ function square_hubbard_main(args = ARGS)
     cfg = TOML.parsefile(args[1])
     model, sampling = cfg["model"], cfg["sampling"]
     output = length(args) == 3 ? args[3] : cfg["output"]["directory"]
-    ispath(output) && error("Output already exists: $output. Choose a new --output-dir.")
+    # Reserve the directory before sampling so concurrent runs cannot share it.
+    mkpath(dirname(abspath(output)))
+    try
+        mkdir(output)
+    catch err
+        (ispath(output) || islink(output)) &&
+            error("Output already exists: $output. Choose a new --output-dir.")
+        rethrow(err)
+    end
+    open(joinpath(output, "parameters.toml"), "w") do io
+        TOML.print(io, cfg)
+    end
     BLAS.set_num_threads(1)
-    result = run_square_dqmc(;
+    result = run_simulation(;
         Lx = model["Lx"], Ly = model["Ly"], t = model["t"], U = model["U"],
         mu = model["mu"], beta = model["beta"], dtau = model["dtau"],
         periodic = model["periodic"], n_stab = model["n_stab"],
         root_seed = sampling["root_seed"], burnin = sampling["burnin"],
         measurements = sampling["measurements"], bins = sampling["bins"],
         sweeps_per_measurement = sampling["sweeps_per_measurement"])
-    mkpath(output)
-    open(joinpath(output, "parameters.toml"), "w") do io
-        TOML.print(io, cfg)
-    end
     open(joinpath(output, "summary.csv"), "w") do io
         println(io, "observable,mean,standard_error")
         for name in (:energy, :energy_per_site, :density, :double_occupancy)

@@ -67,6 +67,10 @@ nearest-neighbor chain and the detailed ED table records `Nup=Ndn=5`.
 
 ## Deterministic figure generation
 
+The commands in this section require the original research scripts and
+processed snapshot, which are omitted from this source release. For checks
+that run with the included files, see [REPRODUCIBILITY.md](../REPRODUCIBILITY.md).
+
 The SVG generator uses Julia Base and `Printf` only. It reads the tracked
 summary, refuses to overwrite an existing path, and emits no timestamp,
 hostname, source path, or package-environment metadata.

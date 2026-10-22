@@ -1,0 +1,3 @@
+Julia 1.12.1; kernel NT
+Test Summary:                  | Pass  Total  Time
+Native output-file reservation |    5      5  0.1s

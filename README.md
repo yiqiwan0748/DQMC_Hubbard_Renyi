@@ -47,6 +47,10 @@ run, choose a new directory:
 julia --project=. .\run\run_square_hubbard.jl .\parameters\square_4x4.toml --output-dir .\results\my_square_run
 ```
 
+The output directory is reserved before sampling starts. If a run fails, its
+input settings remain there; choose a new directory when retrying. A directory
+with parameters but no summary is an incomplete run.
+
 Edit `parameters/square_4x4.toml`:
 
 | Setting | Meaning |
@@ -114,6 +118,7 @@ errors, timing scope, and reproduction commands:
 - [ED validation](docs/cv_benchmarks/ed.md)
 - [DMRG validation](docs/cv_benchmarks/dmrg.md)
 - [DQMC validation and rank-one timings](docs/cv_benchmarks/dqmc.md)
+- [Independent package cross-check](docs/cv_benchmarks/crosscheck.md)
 
 Run the regression suite and optional DMRG checks:
 

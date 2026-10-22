@@ -1,0 +1,6 @@
+CLI smoke Julia=1.12.1; Julia threads=1; BLAS threads=1
+Ground-state energy per site: -1.5256871208655196
+Left-column Renyi entropy S2: 0.7521220360016573
+Thermal energy per site at beta=2: -1.368154991809495
+Thermal density: 0.999999999999999
+Thermal double occupancy per site: 0.08731598141962787

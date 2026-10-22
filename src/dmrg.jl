@@ -61,11 +61,12 @@ function prefix_renyi2(psi, cut)
 end
 
 """
-    dmrg_ground_state(K; U=4, mu=0, Nup=N÷2, Ndn=N÷2, cut=N÷2,
+    dmrg_ground_state(K; U=4, mu=0, Nup=cld(N,2), Ndn=fld(N,2), cut=N÷2,
                       nsweeps=10, maxdim=[16,32,64,128], cutoff=1e-12,
                       root_seed=1234, outputlevel=0)
 
 Find a fixed-particle-number Hubbard ground state with ITensorMPS DMRG.
+The default sector has one electron per site, including for odd site counts.
 `K` is a real symmetric single-particle matrix, with hopping `-t` on a bond.
 The interaction is centered: `U*(nup-1/2)*(ndn-1/2) - mu*(nup+ndn)`.
 `cut` gives the prefix subsystem `1:cut`, in the input site order. Square
@@ -77,7 +78,7 @@ establish that the state is the ground state. This wrapper uses ITensorMPS;
 it does not implement a separate DMRG engine.
 """
 function dmrg_ground_state(K::AbstractMatrix{<:Real}; U::Real=4.0, mu::Real=0.0,
-        Nup::Integer=size(K, 1)÷2, Ndn::Integer=size(K, 1)÷2,
+        Nup::Integer=cld(size(K, 1), 2), Ndn::Integer=fld(size(K, 1), 2),
         cut::Integer=size(K, 1)÷2, nsweeps::Integer=10,
         maxdim::AbstractVector{<:Integer}=[16, 32, 64, 128],
         cutoff::Real=1e-12, root_seed::Integer=1234, outputlevel::Integer=0)

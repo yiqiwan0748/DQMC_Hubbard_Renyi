@@ -1,5 +1,9 @@
 # DQMC Renyi-2 Entanglement Entropy Study
 
+> Research-study record. Historical data, figures, and the original archive are
+> omitted from this source release. For the included package checks and runnable
+> commands, see [REPRODUCIBILITY.md](../REPRODUCIBILITY.md).
+
 ## Result
 
 This repository computes the second Renyi entropy of a contiguous subsystem in
@@ -174,7 +178,10 @@ c_eff = 4 [S2(L=12) - S2(L=8)] / log(12/8).
 | 4 | ED | 1.145870324242 | 1.258158791329 | 1.1077 |
 | 4 | DQMC screening | 1.185789049266 +/- 0.020607329183 | 1.349354013793 +/- 0.031463441265 | 1.61 +/- 0.37 |
 
-![U=2 versus U=4 closed-shell APBC diagnostic](../results/figures/u2_u4_apbc_mott_crossover.svg)
+The original plot is recorded at
+`results/figures/u2_u4_apbc_mott_crossover.svg` in the research workspace;
+that historical figure is omitted from this source release. The values are
+retained in the table above.
 
 The exact two-size contrast strongly supports the expected finite-size Mott
 crossover: at U=2 the charge correlation length is long enough that these

@@ -1,0 +1,2 @@
+Lx,Ly,Nup,Ndn,U,mu,energy,S2,cut,maxlinkdim,nsweeps,final_sweep_energy_change,energy_variance,final_truncation_error,root_seed,t,periodic_x,periodic_y,cutoff,maxdim_schedule
+2,2,2,2,4.0,0.0,-6.102748483462069,0.7521220360019255,2,16,10,1.7763568394002505e-15,2.842170943040401e-14,0.0,1234,1.0,false,false,1.0e-12,16;32;64;128

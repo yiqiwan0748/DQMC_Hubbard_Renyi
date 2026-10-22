@@ -3,6 +3,11 @@
 > Historical validation record. See [`dqmc_renyi_ee.md`](dqmc_renyi_ee.md)
 > for the current scientific summary and conclusions.
 
+> Source-release note: the historical data, analysis scripts, and separate FSS
+> environment referenced below are omitted. The recorded machine paths describe
+> the original research workspace. For commands using the included files, see
+> [REPRODUCIBILITY.md](../REPRODUCIBILITY.md).
+
 ## Scope and scientific status
 
 This report records finite-size diagnostic regressions for the half-chain

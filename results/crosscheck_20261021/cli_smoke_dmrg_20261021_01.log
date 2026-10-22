@@ -1,0 +1,13 @@
+CLI smoke Julia=1.12.1; Julia threads=1; BLAS threads=1
+After sweep 1 energy=-6.102748463455301  maxlinkdim=16 maxerr=1.69E-09 time=18.721
+After sweep 2 energy=-6.102748483462075  maxlinkdim=20 maxerr=1.19E-16 time=0.037
+After sweep 3 energy=-6.102748483462073  maxlinkdim=16 maxerr=0.00E+00 time=0.618
+After sweep 4 energy=-6.102748483462075  maxlinkdim=16 maxerr=0.00E+00 time=0.020
+After sweep 5 energy=-6.102748483462074  maxlinkdim=16 maxerr=0.00E+00 time=0.007
+After sweep 6 energy=-6.102748483462075  maxlinkdim=16 maxerr=0.00E+00 time=0.008
+After sweep 7 energy=-6.102748483462071  maxlinkdim=16 maxerr=0.00E+00 time=0.007
+After sweep 8 energy=-6.102748483462074  maxlinkdim=16 maxerr=0.00E+00 time=0.007
+After sweep 9 energy=-6.102748483462073  maxlinkdim=16 maxerr=0.00E+00 time=0.007
+After sweep 10 energy=-6.102748483462071  maxlinkdim=16 maxerr=0.00E+00 time=0.007
+Wrote /home/yqw/code/HubbardRenyiDQMC/output/crosscheck_20261021/cli_smoke_dmrg_20261021_01.csv
+Energy = -6.102748483462; S2(1:2) = 0.752122036002

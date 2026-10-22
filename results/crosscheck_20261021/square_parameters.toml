@@ -1,0 +1,20 @@
+[output]
+directory = "results/examples/square_4x4_seed1234"
+
+[model]
+periodic = [true, true]
+Ly = 4
+U = 4.0
+n_stab = 10
+Lx = 4
+t = 1.0
+dtau = 0.1
+mu = 0.0
+beta = 4.0
+
+[sampling]
+root_seed = 1234
+sweeps_per_measurement = 1
+measurements = 4000
+burnin = 500
+bins = 40

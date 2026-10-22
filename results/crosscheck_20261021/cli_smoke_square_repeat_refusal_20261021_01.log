@@ -1,0 +1,45 @@
+CLI smoke Julia=1.12.1; Julia threads=1; BLAS threads=1
+ERROR: LoadError: Output already exists: ../crosscheck_20261021/cli_smoke_square_20261021_01. Choose a new --output-dir.
+Stacktrace:
+ [1] error(s::String)
+   @ Base ./error.jl:44
+ [2] square_hubbard_main(args::Vector{String}; run_simulation::typeof(run_square_dqmc))
+   @ Main ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:22
+ [3] square_hubbard_main
+   @ ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:7 [inlined]
+ [4] square_hubbard_main()
+   @ Main ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:7
+ [5] top-level scope
+   @ ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:62
+ [6] include(mod::Module, _path::String)
+   @ Base ./Base.jl:306
+ [7] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:317
+ [8] _start()
+   @ Base ./client.jl:550
+in expression starting at /home/yqw/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:62
+
+caused by: IOError: mkdir("../crosscheck_20261021/cli_smoke_square_20261021_01"; mode=0o777): file already exists (EEXIST)
+Stacktrace:
+  [1] _uv_error(prefix::String, c::Int32)
+    @ Base ./libuv.jl:114
+  [2] uv_error
+    @ ./libuv.jl:113 [inlined]
+  [3] mkdir(path::String; mode::UInt16)
+    @ Base.Filesystem ./file.jl:185
+  [4] mkdir(path::String)
+    @ Base.Filesystem ./file.jl:177
+  [5] square_hubbard_main(args::Vector{String}; run_simulation::typeof(run_square_dqmc))
+    @ Main ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:20
+  [6] square_hubbard_main
+    @ ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:7 [inlined]
+  [7] square_hubbard_main()
+    @ Main ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:7
+  [8] top-level scope
+    @ ~/code/HubbardRenyiDQMC/output/github_release/run/run_square_hubbard.jl:62
+  [9] include(mod::Module, _path::String)
+    @ Base ./Base.jl:306
+ [10] exec_options(opts::Base.JLOptions)
+    @ Base ./client.jl:317
+ [11] _start()
+    @ Base ./client.jl:550

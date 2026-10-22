@@ -19,6 +19,13 @@ The first command displays the result. The second writes a new CSV and refuses
 to replace an existing file. Install the project dependencies with
 `julia --project=. -e 'using Pkg; Pkg.instantiate()'` if needed.
 
+The CSV records hopping, both boundary flags, the truncation cutoff, and the
+complete bond-dimension schedule (`maxdim_schedule`, separated by semicolons),
+as well as particle counts, seed, and convergence diagnostics. The runner
+reserves its output file before solving, so concurrent runs cannot replace
+each other's results. If solving fails, the reserved CSV remains empty;
+choose a new output path after correcting the settings.
+
 Edit `examples/dmrg_square.toml` to set `Lx`, `Ly`, hopping `t`, interaction `U`,
 and the two periodic-boundary flags. The supplied example is an open 2 by 2
 square, with two up and two down electrons. For an open 3 by 2 rectangle at half

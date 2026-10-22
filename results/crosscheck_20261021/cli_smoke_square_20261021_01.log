@@ -1,0 +1,6 @@
+CLI smoke Julia=1.12.1; Julia threads=1; BLAS threads=1
+Energy per site: -1.81945048 +/- 0.00381879
+Density: 1.00000000 +/- 0.00000000
+Double occupancy: 0.12337615 +/- 0.00046678
+Average sign: 1.000000; maximum Green-function correction: 2.809e-08
+Saved bins, summary and parameters to /home/yqw/code/HubbardRenyiDQMC/output/crosscheck_20261021/cli_smoke_square_20261021_01

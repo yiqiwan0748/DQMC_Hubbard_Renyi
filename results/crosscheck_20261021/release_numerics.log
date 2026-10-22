@@ -1,0 +1,24 @@
+┌ Warning: MPS center bond dimension is less than requested (you requested 8, but in practice it is 4. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 8, but in practice it is 4. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 8, but in practice it is 1. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 8, but in practice it is 1. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 8, but in practice it is 2. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 4, but in practice it is 2. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 8, but in practice it is 4. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 4, but in practice it is 1. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+┌ Warning: MPS center bond dimension is less than requested (you requested 4, but in practice it is 1. This is likely due to technicalities of truncating quantum number sectors.
+└ @ ITensorMPS ~/.julia/packages/ITensorMPS/DiVzn/src/mps.jl:154
+Test Summary:                           | Pass  Total  Time
+Independent full-Fock Hubbard reference |   60     60  1.9s
+Test Summary:                        | Pass  Total     Time
+Custom interacting ED-DMRG agreement |   20     20  1m09.2s
+Test Summary:                    | Pass  Total  Time
+ITensorMPS Hubbard ground states |   26     26  9.6s

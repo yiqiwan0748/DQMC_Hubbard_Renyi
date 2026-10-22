@@ -5,6 +5,7 @@ using HubbardRenyiDQMC
 
 include("square_lattice.jl")
 include("test_ed.jl")
+include("test_output_safety.jl")
 if get(ENV, "HUBBARD_TEST_DMRG", "false") == "true"
     include("test_dmrg_package.jl")
 end
